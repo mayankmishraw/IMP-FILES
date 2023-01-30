@@ -1,0 +1,9 @@
+logistic regression predict string outputs as well therefore its not necessary to convert those into numbers unlike linear regression
+
+if there is string input in logistic regression we use natural language processing to convert that string into machine understanding languages 
+trhat is nymber by using countvectorizer,tfidftranformer or tfidfvectorizer(countvectorizer+tfidftransformer).
+
+pipeline method is very fast compare to single algorithms
+eg.
+pipeline(tfidfvectorizer +logistic regression) is faster then separate methods of these two
+
